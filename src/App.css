@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('./images/background.png');
+}
+
+.logoSystem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logImg {
+  width: 450px;
+}
+
+.titlePlanetAndMission {
+  color: white; 
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.planets {
+  display: flex;
+}
+
+.sizeImg {
+  width: 180px;
+}
+
+.jupiter {
+  width: 272px;
+  height: 204px;
+  left: 489px;
+  top: 518px;
+}
+
+.mercurio {
+  width: 41px;
+  height: 31px; 
+}
+
+.marte {
+  width: 66px;
+  height: 50px;
+  left: 423px;
+  top: 610px;
+}
+
+.netuno {
+  position: absolute;
+  width: 144px;
+  height: 107px;
+  left: 1255px;
+  top: 577px;
+}
+
+.saturno {
+  width: 282.41px;
+  height: 210.9px;
+  left: 694px;
+  top: 547.35px;
+}
+
+.terra {
+  width: 106px;
+  height: 79px;
+  left: 278px;
+  top: 596px; 
+}
+
+.urano {
+  width: 144px;
+  height: 109px;
+  left: 977px;
+  top: 576px;
+}
+
+.venus {
+  width: 102px;
+  height: 76px;
+}
